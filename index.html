@@ -40,7 +40,7 @@
         3. Suche im Web ein passendes Bild für den HTML DOM z.B. ein DOM Struktur Diagramm.
         4. Erstelle einen Ordner mitizen was der Unteschied ist, auch wieder in einem Pragraph-Tag.
     -->
-    <p class="textblock">ein Dom (steht für Document Object Model) ist im prinzip ein HTML Element dass sich sichtbar (kann auch unsichtbar sein) auf deiner webseite befindet.</p>
+    <p class="textblock">ein Dom (steht für Document Object Model) ist im prinzip die Schnittstelle zwischen HTML Elemente und js dass sich sichtbar (kann auch unsichtbar sein) auf deiner webseite befindet. Alle HTML Elemente werden dabei zu einem Objekt.</p>
     <!--
         1. Bei jedem Titel (headings , h-tags) eine ID hinzufügen (keine id darf zweimal vorkommen natürlich).
         2. Füge bei allen Pargraph-Tags einen Class-Tag hinzu, bennen klasse textblock
@@ -56,5 +56,24 @@
 
         Beispiel: Ändere mit JavaScript die Farbe der Texte oder den Hintergrund, ändere die Schriftgrösse oder ordne die Elemente anders an.
     -->
+    <script>
+      let re1 = new RegExp("abc");
+      let re2 = /abc/;
+      let eighteenPlus = /eighteen\+/;
+      alert(eighteenPlus);
+      
+      
+      //alert(re1);
+      let element1=document.getElementById("lernziele");
+      const textblock = document.getElementsByClassName("textblock");
+      for (let i = 0; i < textblock.length; i++) {
+        //const somethin = textblock[i];
+        textblock[i].style.backgroundColor="green";
+      }
+      textblock.forEach(element => {
+        console.log(element)
+      });
+      
+    </script>
   </body>
 </html>

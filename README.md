@@ -25,3 +25,7 @@ Füge hier deine Anleitung hinzu:
 
 1. Öffne das index.html Dokument in deinem Code-Editor (VSCode).
 2. Gehe Zeile für Zeile durch und versuche selbständig die Fragen beantworten und die Aufgaben zu lösen. Für die Fragen kannst du gerne Google benutzen, auch Stackoverflow ist erlaubt. Vermeide das verwenden von ChatGPT oder anderer bots.
+
+hier eine Liste
+- [X] etwas
+- [x] sonst was
